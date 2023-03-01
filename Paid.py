@@ -1,4 +1,4 @@
-# Facebook: Alamin Mahamud
+# Facebook: Md. Alamin Islam
 # Github: Atalamin
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
