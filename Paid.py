@@ -11,15 +11,6 @@ from time import sleep
 from time import sleep as waktu
 try:
     import requests
-    from concurrent.futures import ThreadPoolExecutor as ThreadPool
-    import mechanize
-    from requests.exceptions import ConnectionError
-except ModuleNotFoundError:
-    os.system('pip install mechanize requests futures bs4==2 > /dev/null')
-    os.system('pip install bs4')
-import os
-try:
-    import requests
 except ImportError:
     print('\n [✓] installing requests !...\n')
     os.system('pip install requests')
@@ -90,7 +81,7 @@ logo =("""\033[1;32m
 ╠══[TOOLS:========================> Random Cloning  ║ \33[1;32m
 ╠══[VERSION:======================> 1.0.1           ║\033[1;35m
 \033[0;92m╚═══════════════════════════════════════════════════╝\033[1;31m
- "")
+ """)
 try:
     key1=open("/storage/emulated/0/android8.txt",'r').read()
 except IOError:
@@ -279,4 +270,4 @@ def rcrack(uid,pwx,tl):
     except:
         pass
  
-Alex()
+xxr()
