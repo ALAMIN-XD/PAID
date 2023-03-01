@@ -417,7 +417,9 @@ __________________×______________________
   Github : atalamin
 
   Facebook : Md. Alamin Islam
-  
+
+  Tools Type : Tools For Paid
+
   Youtube : Learning Termux 
   
   WhatsApp  : +8801861872997
