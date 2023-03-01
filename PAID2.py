@@ -17,8 +17,7 @@ try:
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
-    try:
-    import requests
+    try: import requests
 except ImportError:
     print('\n [✓] installing requests !...\n')
     os.system('pip install requests')
