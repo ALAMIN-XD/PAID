@@ -90,7 +90,8 @@ logo =("""\033[1;32m
 ╠══[TOOLS:========================> Random Cloning  ║ \33[1;32m
 ╠══[VERSION:======================> 1.0.1           ║\033[1;35m
 \033[0;92m╚═══════════════════════════════════════════════════╝\033[1;31m
- try:
+ ""
+try:
     key1=open("/storage/emulated/0/android8.txt",'r').read()
 except IOError:
     kok=open("/storage/emulated/0/android8.txt",'w')
